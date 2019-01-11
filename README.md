@@ -7,4 +7,5 @@ Example `ruby lib/main.rb ~/Downloads/test.txt`
 
 ## Run test
 
-`bundle exec rspec`
+* Install the test depencies by running the command `bundle install`
+* Then run the tests `bundle exec rspec`

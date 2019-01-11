@@ -6,6 +6,7 @@ class BitStat
 
   def initialize(file)
     raise 'A file is not provided' unless file
+    raise 'It is not a file' unless file.instance_of?(File)
 
     @file = file
     @number_of_zeros = 0
